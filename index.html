@@ -1,40 +1,103 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>For You ❤️</title>
 
-    <link rel="stylesheet" href="style.css">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>For You ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
+
 
 <body>
 
-    <div class="container">
 
-        <div class="gift">
-            🎁
-        </div>
+<!-- صفحه شروع سیاه -->
 
-        <h1>یه سورپرایز کوچیک برای ریحانه خانم :)</h1>
+<section id="intro">
 
-        <p>
-            واسه اینکه فراموش نکنی چقد عزیزی❤️
-        </p>
+    <div class="intro-text">
+        چون لبخندت ارزش خیلی چیزا رو داره...🌱✨️
+    </div>
 
-        <button onclick="showMessage()">
-            بازش کن ✨
-        </button>
+</section>
 
-        <div id="message">
-             تولدت مبارک دختر خانم مهربون🤍
-            <br>
-            یادت نره مراقب خودت باشیاا
-        </div>
+
+
+
+<!-- صفحه عکس ها -->
+
+<section id="gallery" class="hidden">
+
+
+    <div class="photos">
+
+        <img src="images/1.jpg">
+
+        <img src="images/2.jpg">
+
+        <img src="images/3.jpg">
+
+        <img src="images/4.jpg">
+
 
     </div>
 
 
+
+    <!-- آیکون ویس در انتهای اسکرول -->
+
+    <div class="voice">
+
+        <button id="voiceButton">
+            🎧
+        </button>
+
+
+    </div>
+
+
+</section>
+
+
+
+
+
+<!-- فایل ویس -->
+
+<audio id="voiceAudio" src="voice.mp3"></audio>
+
+
+
+
+
+<!-- صفحه پایان -->
+
+<section id="ending" class="hidden">
+
+
+    <div class="final-text">
+
+        ❤️🫂
+
+    </div>
+
+
+</section>
+
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
 <script src="script.js"></script>
 
 </body>
